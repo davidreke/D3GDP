@@ -1,0 +1,32 @@
+.bar {
+    fill: red;
+    background-color: red;
+  }
+
+.bar:hover {
+    fill: blue;
+    border: 20px solid blue;
+}
+
+title {
+    background-color: yellow;
+    color: purple;
+}
+
+
+
+#GDP {
+    position: relative;
+}
+
+#GDP > * {
+    position: absolute;
+}
+
+g {
+    position: absolute;
+}
+
+h1, h2, h3 {
+    font-family: Roboto,sans-serif;
+}
